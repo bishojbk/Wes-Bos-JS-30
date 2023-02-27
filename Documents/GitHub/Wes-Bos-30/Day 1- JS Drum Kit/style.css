@@ -1,0 +1,60 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	font-size: 50px;
+	font-family:monospace;
+	font-weight: 600;
+	position: relative;
+	left: 500px;
+	top: 20px;
+}
+
+html
+{
+	overflow: hidden;	
+	background-image: url("./before-and-after-of-kid-walking-on-a-rainy-day-by-Nicole-Kost-before.jpg");
+	color:blue;
+}
+
+img 
+{
+	object-fit: cover;
+}
+.wrapper
+{
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	z-index: 2222;
+}
+button
+{
+	color: red;
+	font-size: 45px;
+	width: 120px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border: none;
+	outline: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+	background-color: transparent;
+	transition: all 0.2s;
+}
+.name
+{
+	font-size: 20px;
+	color:rgb(121, 123, 75);
+}
+.playing
+{
+	border: 2px solid rgb(244, 230, 33);
+	scale: 1.2;
+}
